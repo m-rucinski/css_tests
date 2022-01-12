@@ -579,8 +579,9 @@ img {
   max-width: 250px;
 }
 
-@media (hover: none) and (pointer: coarse) and (max-width: 768px) {
+@media (hover: none) and (pointer: coarse) and (min-width: 50vw) {
   img {
     display: inline !important;
   }
+}
 
