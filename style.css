@@ -575,3 +575,12 @@ form#pardot-form div#form-content-before .description a {
   }
 }
 
+img {
+  max-width: 250px;
+}
+
+@media (hover: none) and (pointer: coarse) and (max-width: 768px) {
+  img {
+    display: inline !important;
+  }
+
