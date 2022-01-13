@@ -579,9 +579,15 @@ img {
   max-width: 250px;
 }
 
-@media (hover: none) and (pointer: coarse) and (min-width: 50vw) {
+@media (hover: none) and (pointer: coarse) and (orientation: portrait) {
   img {
-    display: inline !important;
+    display: inline ;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) and (orientation: landscape) and (max-width: 593px) {
+  img {
+    display: none;
   }
 }
 
